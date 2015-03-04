@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #0DD088;
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -263,17 +263,8 @@ section.success {
     background: #fff;
 }
 
-footer {
-    color: #fff;
-}
-
-footer .footer-above {
-    padding-top: 50px;
-    background-color: #267F5F;
-}
-
 footer .footer-below {
-    padding: 25px 0;
+    padding: 30px 0;
     background-color: #267F5F;
 }
 
@@ -303,9 +294,25 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
-.gif{
-    width: 30%;
-    height: 30%;
-    float: right;
-    margin-right: 25px;
+
+.resume-img{
+    height: 75%;
+    width: 75%;
 }
+.gif{
+  height: 35%;
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+
+.gif-description-title{
+    color: #fff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+}
+.gif-description-title p{
+    color: #267F5F;
+}
+
+
