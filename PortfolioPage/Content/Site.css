@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+html, body {
     overflow-x: hidden;
 }
 
@@ -23,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #fff;
+    background-color: #267F5F;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
 
 hr.star-light,
 hr.star-primary {
@@ -89,7 +91,7 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text .quote, header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -108,8 +110,13 @@ header .intro-text .skills {
         padding-bottom: 20px;
     }
 
-    header .intro-text .name {
-        font-size: 4.75em;
+    header .intro-text .quote {
+        font-size: 1.8em;
+        padding-right: 30px;
+    }
+
+    header .intro-text .name{
+        font-size: 1.5em;
     }
 
     header .intro-text .skills {
@@ -147,9 +154,6 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
-.navbar a:focus {
-    outline: 0;
-}
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
@@ -163,13 +167,11 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
-
 section {
     padding: 100px 0;
 }
 
 section h2 {
-    margin: 0;
     font-size: 3em;
 }
 
@@ -180,68 +182,11 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 25px 0;
     }
 
     section.first {
         padding-top: 75px;
-    }
-}
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(24,188,156,.9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}
-
-#portfolio * {
-    z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
     }
 }
 
@@ -264,14 +209,19 @@ section.success {
 }
 
 footer .footer-below {
-    padding: 30px 0;
+    padding-top: 20px;
     background-color: #267F5F;
+    margin: 0 -30rem;
+    padding-bottom: 2px;
 }
 
 .btn:focus,
 .btn:active,
 .btn.active {
     outline: 0;
+    background-color: #fff;
+    color: #0DD088;
+    border: solid 2px #0DD088;
 }
 
 .scroll-top {
@@ -298,6 +248,7 @@ footer .footer-below {
 .resume-img{
     height: 75%;
     width: 75%;
+    margin-bottom: 50px;
 }
 .gif{
   height: 35%;
@@ -313,6 +264,26 @@ footer .footer-below {
 }
 .gif-description-title p{
     color: #267F5F;
+}
+.skills p{
+    color: #fff;
+}
+form{
+    color: #267F5F;
+}
+.btn{
+    background-color: #267F5F;
+    border: solid #fff;
+    padding-top: 10px;
+}
+.btn:hover{
+    background-color: #0DD088;
+    border: solid #fff;
+}
+.btn:target{
+    background-color: #fff;
+    color: #0DD088;
+    border: solid #0DD088;
 }
 
 
