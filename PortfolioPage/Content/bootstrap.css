@@ -1392,17 +1392,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 760px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 990px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1190px;
   }
 }
 .container-fluid {
@@ -1740,13 +1740,13 @@ pre code {
     float: left;
   }
   .col-md-12 {
-    width: 100%;
+    width: 80%;
   }
   .col-md-11 {
     width: 91.66666667%;
   }
   .col-md-10 {
-    width: 83.33333333%;
+    width: 83.33333333%;    
   }
   .col-md-9 {
     width: 75%;
