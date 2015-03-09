@@ -154,12 +154,22 @@ header .intro-text .skills {
      #portfolio p{
         font-size: 70%;
     }
-    #portfolio h3, #resume h3{
+    #portfolio .row h3, #resume .row h3{
          font-size: 120%;
+         padding-bottom: 10%;
      }
+
     #portfolio .gif{
         width: 90%;
         height: 90%;
+    }
+    #resume .resume-img{
+        width: 100%;
+        height: 100%;
+    }
+    #contact{
+        padding-bottom: 40%;
+        padding-top: 10%;
     }
      .footer-below .skills{
         margin-left: 36%;
@@ -173,12 +183,6 @@ header .intro-text .skills {
          height:8%;
          width: 8%;
      }
-    #contact{
-        padding-bottom: 40%;
-        padding-top: 10%;
-    }
-    
-  
 }
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -236,8 +240,6 @@ section.success {
     background: #0DD088;
 }
 
-
-
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -293,10 +295,31 @@ footer .footer-below {
     outline: 0;
 }
 
+#portfolio h3{
+    color: #267F5F;
+    padding-bottom: 70px;
+    font-size: 1.5em;
+}
+
+#resume, #portfolio{
+    margin-bottom:0;
+    padding-bottom: 5px;
+}
+
+#resume h3{
+    padding-bottom: 70px;
+    font-size: 1.5em;
+}
+
 .resume-img{
     height: 75%;
     width: 75%;
     margin-bottom: 50px;
+}
+
+#contact{
+    margin-top: 40px;
+    padding-bottom: 130px;
 }
 .gif{
   height: 35%;

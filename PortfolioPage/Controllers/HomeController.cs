@@ -30,18 +30,6 @@ namespace PortfolioPage.Controllers
             ViewBag.Message = "Thank you for getting in touch! I will contact you soon!";
             return View();
         }
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+     
     }
 }
