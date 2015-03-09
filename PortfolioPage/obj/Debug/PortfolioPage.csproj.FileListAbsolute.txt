@@ -50,6 +50,5 @@ C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\bin\Microsoft
 C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\obj\Debug\PortfolioPage.csprojResolveAssemblyReference.cache
 C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\obj\Debug\PortfolioPage.dll
 C:\Users\Technologist\Documents\GitHub\PortfolioPage\PortfolioPage\obj\Debug\PortfolioPage.pdb
