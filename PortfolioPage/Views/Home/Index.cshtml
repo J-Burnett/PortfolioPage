@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" media="handheld" href="~/Content/Site.css" type="text/css">
-   
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -22,7 +22,6 @@
     <![endif]-->
 </head>
 <body id="page-top" class="index">
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -34,7 +33,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-
                 </button>
                 <a class="navbar-brand" href="#page-top">Juli Anna Burnett</a>
             </div>
@@ -69,7 +67,7 @@
                 <div class="col-lg-12">
                     <div class="intro-text">
                         <span class="skills">Traveler | Software Developer | Researcher</span>
-                       
+
                         <img class="img-responsive img-circle img-rounded" src="~/Content/Images/portfoliopicture.jpg" alt="">
                         <hr class="star-primary">
                         <span class="quote">
@@ -77,13 +75,13 @@
                             they have fun in what they are doing"
                         </span>
                         <span class="name">Dale Carnegie</span>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
-  
+
     <!-- About Section -->
     <section id="about">
         <div class="container-fluid">
@@ -95,17 +93,20 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>I've always had a passion for learning and devoured every book in my path from a very young age. 
-                    <br><br>Over the years, that passion has grown into an uncontrollable behemoth with its phasers set on software development.</p>
+                    <p>
+                        I've always had a passion for learning and devoured every book in my path from a very young age.
+                        <br><br>Over the years, that passion has grown into an uncontrollable behemoth with its phasers set on software development.
+                    </p>
                 </div>
                 <div class="col-lg-4">
-                    <p>While I'm not diving into an unknown world of knowledge, I'm seeking adventure all over the world. 
-                   <br><br>I've been to over 10 countries on 3 continents which have led to experiences as calming as meditating with Budddhist monks in Thailand and as chaotic as chasing monkeys out of my cabin in Costa Rica.</p>
+                    <p>
+                        While I'm not diving into an unknown world of knowledge, I'm seeking adventure all over the world.
+                        <br><br>I've been to over 10 countries on 3 continents which have led to experiences as calming as meditating with Budddhist monks in Thailand and as chaotic as chasing monkeys out of my cabin in Costa Rica.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Portfolio Grid Section -->
     <section class="success" id="portfolio">
         <div class="container">
@@ -115,19 +116,19 @@
                     <hr class="star-primary">
                     <h3>Click on the GIFS to jump to my code on Github</h3>
                     <div class="gif-description-title" id="archer">
-                    Archer Themed Combat Game
+                        Archer Themed Combat Game
                         <p>
                             Play as Sterling Archer, from TV's "Archer",
                             against KGB members as you vy for the same government files
                         </p>
                     </div>
-                    
+
                     <a href="https://github.com/J-Burnett/CombatSimulatorV2/blob/master/CombatSimulatorV2/Program.cs" target="_blank">
                         <img class="gif" id="archer" src="~/Content/Images/ArcherCombatSim.gif" />
                     </a>
 
                     <div class="gif-description-title" id="hyperspace">
-                    Hyperspace
+                        Hyperspace
                         <p>
                             Dodge falling obstacles and space rifts while flying around in your spaceship!
                         </p>
@@ -142,12 +143,12 @@
                         <p>
                             Play as a mouse seeking out some tasty cheese to nibble on while house cats hunt you down.
                         </p>
-                     </div>
+                    </div>
 
                     <a href="https://github.com/J-Burnett/CheeseNibblerII/blob/master/CheeseNibblerII/CheeseNibblerII/Program.cs" target="_blank">
                         <img class="gif" id="cheesenibbler" src="~/Content/Images/CheeseNibbler.gif" />
                     </a>
-                    
+
                 </div>
             </div>
         </div>
@@ -163,14 +164,14 @@
                     <a href="~/Content/Images/JuliAnnaBurnett%20-%20ResumeV6.pdf" download="JuliAnnaBurnett-Resume">
                         <img class="img-responsive resume-img img-centered" src="~/Content/Images/Resume.jpg" />
                     </a>
-                    
+
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="success"  id="contact">
+    <section class="success" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -179,10 +180,10 @@
                     <form method="post">
                         <p><input name="Name" placeholder="Name" class="name" required /></p>
                         <p><input name="Email" placeholder="Email" class="email" type="email" required /></p>
-                        <p><input name="Phone" placeholder="Phone" class="phone" type="tel"/></p>
+                        <p><input name="Phone" placeholder="Phone" class="phone" type="tel" /></p>
                         <p><textarea rows="3" cols="25" name="Message" placeholder="Please enter your message" class="message" required></textarea></p>
                         <p><input name="submit" class="btn btn-default btn-lg" type="submit" value="Send Email" /></p>
-                    </form>  
+                    </form>
                     @if (ViewBag.Message != null)
                     {
                         @ViewBag.Message
@@ -199,8 +200,8 @@
                     <div class="row">
                         <div class="skills">
                             <p>
-                                518-572-8638 //
-                                julianna.burnett@gmail.com //
+                                <a href="tel:+15185728638">518-572-8638</a>// 
+                                <a href="mailto:julianna.burnett@gmail.com">julianna.burnett@gmail.com</a> //
                                 <a href="http://www.github.com/J-Burnett" target="_blank"><img src="~/Content/Images/GitHub-Mark-32px.png" />github.com/J-Burnett</a> //
                                 <a href="http://linkedin.com/in/juliannaburnett" target="_blank"><img src="~/Content/Images/LinkedIn.png" />LinkedIn Profile</a>
                             </p>
@@ -208,12 +209,12 @@
                     </div>
                 </div>
             </div>
-            </nav>
-</footer>
+        </nav>
+    </footer>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visble-sm">
         <a class="btn btn-primary" href="#page-top">
-           
+
         </a>
     </div>
 
